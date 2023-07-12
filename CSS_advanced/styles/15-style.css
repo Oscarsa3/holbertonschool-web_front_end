@@ -26,7 +26,7 @@
     --section-title-color: var(--color-black);
 }
 
-* {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
@@ -48,11 +48,19 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link {
     color: #161616;
     text-decoration: none;
+}
+a:visited {
     font-style: italic;
+}
+
+a:hover {
     text-decoration: underline;
+}
+
+a:active {
     background-color: var(--color-light-grey);
 }
 
