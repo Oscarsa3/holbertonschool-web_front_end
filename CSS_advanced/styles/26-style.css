@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a:link {
-    color: #161616;
+    color: var(--text-color);
     text-decoration: none;
 }
 a:visited {
@@ -106,7 +106,7 @@ a:active {
 .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
-    background-color: var(--button-hover-background);
+    background: var(--button-hover-background);
 }
 
 .visually-hidden {
@@ -150,11 +150,13 @@ a:active {
     font-weight: var(--font-weight-bold);
     margin: var(--section-tagline-margin);
 }
+
 .container {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .footer {
     padding: var(--footer-padding);
 }
@@ -162,6 +164,7 @@ a:active {
 .navbar-menu {
     float: right;
 }
+
 .nav {
     margin: 0;
     padding: 0;
