@@ -138,10 +138,6 @@ a:active {
     text-align: var(--section-footer-align);
 }
 
-.card-category {
-    color: var(--color-primary);
-}
-
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -156,6 +152,10 @@ a:active {
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
     margin: var(--section-tagline-margin);
+}
+
+.card-category {
+    color: var(--color-primary);
 }
 
 .container {
