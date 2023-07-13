@@ -120,10 +120,6 @@ a:active {
     display: none;
 }
 
-.card-category {
-    color: var(--color-primary);
-}
-
 .section {
     padding: var(--section-padding);
 }
@@ -140,6 +136,10 @@ a:active {
 .section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
+}
+
+.card-category {
+    color: var(--color-primary);
 }
 
 .section-title {
@@ -279,7 +279,7 @@ ul.row {
 }
 
 .card-testimonial .card-avatar {
-    border-radius: 50px;
+    border-radius: 50%;
     width: 10rem;
     height: 10rem;
 }
