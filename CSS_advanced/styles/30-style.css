@@ -317,7 +317,7 @@ ul.row {
     left: var(--header-logo-link-left);
 }
 
-.card-outer {
+.card-work .card-outer {
     position: relative;
     overflow: hidden;
 }
